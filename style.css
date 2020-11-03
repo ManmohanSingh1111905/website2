@@ -1,0 +1,150 @@
+.site-blocks-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.logo img{
+    height:50px;
+    width: 50px;
+}
+    .site-blocks-cover.overlay {
+      position: relative; 
+    }
+      .site-blocks-cover.overlay:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.4); 
+    }
+    .site-blocks-cover, .site-blocks-cover .row {
+      min-height: 600px;
+      height: calc(100vh);
+    }
+    .site-blocks-cover h1 {
+      color: #fff;
+      font-size: 3rem;
+      font-family: "Playfair Display"; 
+    }
+    .site-blocks-cover h2{
+        color:#fff;
+        font-size: 1.2rem;
+    }
+.sec1 center{
+    margin-bottom: 50px;
+}
+.sec1 .row{
+    margin-bottom: 75px;
+}
+.sec1 img{
+    max-height:250px;
+}
+.sec1 p{
+    color:rgb(190, 190, 190);
+}
+.sec1 img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.se1{
+    padding-top:100px;
+    background-color: rgb(250, 246, 246);
+}
+.se1 .row img{
+    height:100px;
+}
+.rates{
+    padding:100px 0px 0px;
+}
+.rates .container{
+    margin-top:50px;
+}
+.rates .cardr{
+    height:545px;
+    width:325px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(125deg, #00DBDE 10%, #0e00ff 100%);
+    padding:40px;
+}
+
+.cardr .cardtitle{
+    position: absolute;
+    top:10%;
+    left:45%;
+    transform: translate(-50%);
+    padding:10px 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.cardr .cardtitle .fas{
+    font-size: 1rem;
+}
+.cardr .cardinfo{
+    position: absolute;
+    top:50%;
+    color:#fff;
+}
+.featureclasses{
+    background-color: rgb(250, 246, 246); 
+    padding:100px 0px;  
+}
+.featureclasses .card{
+    box-shadow: 0.6rem 0.8rem 1rem rgba(0, 0, 0, 0.4);
+
+}
+.featureclasses .card img{
+    height:200px;
+}
+.about-area .row h4{
+    margin-top:20px;
+}
+.about-area .row p{
+    color:rgb(163, 147, 147);
+}
+.sec3 .card img{
+    max-height: 250px;
+}
+.card{
+    border:none;
+    margin:50px;
+}
+.card-text{
+    color:rgb(163, 147, 147);
+}
+.s4{
+    padding-top:50px;
+    background-color: rgb(250, 246, 246);
+}
+.getappoint{
+    padding-top:50px;
+}
+form{
+    padding:20px;
+}
+.confirmtext
+{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.confirmtext h1{
+    font-size: 6rem;
+}
+.footer {
+    padding: 50px 0;
+    background: rgb(16, 31, 46);
+}
+.footer ul li{
+    display:inline-flex;
+    color:#fff;
+}
+.footer ul a{
+    color:#fff;
+    text-transform: uppercase;
+}
